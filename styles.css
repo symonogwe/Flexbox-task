@@ -85,14 +85,20 @@ body {
 
 .content-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 30px;
 }
 
 .scooter-content {
-    width: 400px;
+    width: 350px;
 }
 
 .scooter-image {
     width: 350px;
-    height: 250px;
+    height: 270px;
+}
+
+.scooter-content p {
+    font-size: 18px;
+    color: #1F2937;
 }
