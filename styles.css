@@ -4,6 +4,10 @@
     padding: 0px;
 }
 
+body {
+    min-height: 100vh;
+}
+
 .hero {
     background-color: #1F2937;
     height: 500px;
@@ -39,7 +43,7 @@
 
 .hero-image {
     width: 400px;
-    height: 200px;
+    height: 200pxg;
 }
 
 .hero-button {
@@ -69,4 +73,26 @@
 .subtext-hero {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.content-text {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-top: 20px;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.scooter-content {
+    width: 400px;
+}
+
+.scooter-image {
+    width: 350px;
+    height: 250px;
 }
