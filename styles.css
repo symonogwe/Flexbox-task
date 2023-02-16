@@ -20,6 +20,11 @@
     gap: 30px;
 }
 
+.scooter-logo {
+    width: 45px;
+    height: auto;
+}
+
 .hero-content {
     display: flex;
     gap: 350px;
