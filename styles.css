@@ -4,13 +4,60 @@
     padding: 0px;
 }
 
+.hero {
+    background-color: #1F2937;
+    height: 500px;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
-    margin: 20px 200px;
+    padding: 20px 200px;
 }
 
 .header-right ul {
     display: flex;
     gap: 30px;
+}
+
+.hero-content {
+    display: flex;
+    gap: 350px;
+    padding: 40px 150px 0px 150px;
+}
+
+.left-hero {
+    width: 400px;
+    flex-wrap: wrap;
+}
+
+.hero-image {
+    width: 500px;
+    height: 300px;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin-top: 20px;
+}
+
+.header-right a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.header-right li {
+    list-style-type: none;
+}
+
+.text-hero {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.subtext-hero {
+    font-size: 18px;
+    color: #E5E7EB;
 }
