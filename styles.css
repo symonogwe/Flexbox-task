@@ -27,12 +27,12 @@
 
 .hero-content {
     display: flex;
-    gap: 350px;
+    gap: 250px;
     padding: 60px 150px;
 }
 
 .left-hero {
-    width: 400px;
+    width: 600px;
     flex-wrap: wrap;
     flex-shrink: 0;
 }
