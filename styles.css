@@ -23,12 +23,13 @@
 .hero-content {
     display: flex;
     gap: 350px;
-    padding: 40px 150px 0px 150px;
+    padding: 60px 150px;
 }
 
 .left-hero {
     width: 400px;
     flex-wrap: wrap;
+    flex-shrink: 0;
 }
 
 .hero-image {
@@ -40,6 +41,9 @@
     background-color: #3882F6;
     color: #F9FAF8;
     margin-top: 20px;
+    border-radius: 4px;
+    border: none;
+    padding: 4px 6px;
 }
 
 .header-right a {
