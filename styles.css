@@ -123,3 +123,31 @@ body {
     margin-left: auto;
     margin-right: 180px;
 }
+
+#action-container {
+    margin: 40px 350px 40px 350px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 190px;
+    padding: 30px;
+}
+
+.text-action {
+    color: #F9FAF8;
+    font-size: 30px;
+}
+
+.signup-text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.action-button {
+    padding: 0px 40px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: solid #F9FAF8;
+    border-radius: 3px;
+}
