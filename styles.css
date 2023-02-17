@@ -6,6 +6,8 @@
 
 body {
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .hero {
@@ -125,7 +127,7 @@ body {
 }
 
 #action-container {
-    margin: 40px 350px 40px 350px;
+    margin: 150px 350px 150px 350px;
     background-color: #3882F6;
     border-radius: 5px;
     display: flex;
@@ -150,4 +152,18 @@ body {
     background-color: #3882F6;
     border: solid #F9FAF8;
     border-radius: 3px;
+}
+
+.footer {
+    background-color: #1F2937;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.footer-text {
+    color: #F9FAF8;
+    font-size: 20px;
 }
